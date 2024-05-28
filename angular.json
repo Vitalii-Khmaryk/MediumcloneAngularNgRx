@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "mediumclone-angular:build:production"
+              "buildTarget": "mediumclone-angular:build:production"
             },
             "development": {
-              "browserTarget": "mediumclone-angular:build:development"
+              "buildTarget": "mediumclone-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mediumclone-angular:build"
+            "buildTarget": "mediumclone-angular:build"
           }
         },
         "test": {
